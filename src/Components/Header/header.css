@@ -1,0 +1,18 @@
+.navbarItem{
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+.headerText{
+    text-align: center;
+    z-index: 1;
+  position: absolute;
+  top: 15vw;
+  background: white;
+  display: inline
+}
+
+
+.subtitle{
+    font-family: 'Open Sans', sans-serif;
+}
