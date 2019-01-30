@@ -1,12 +1,11 @@
 import React from "react";
 
 const Cara = props => (
-    
   <div className="container">
     <article class="media">
   <figure class="media-left">
-    <p class="image is-8x8">
-      <img src={props.image}/>
+    <p class="image is-sqaure">
+      <img src={props.image} alt="meaningful text"/>
     </p>
   </figure>
   <div class="media-content">
