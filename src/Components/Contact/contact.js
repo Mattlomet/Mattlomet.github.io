@@ -20,7 +20,9 @@ class Contact extends Component {
   };
     render() {
         return (
-            < div className="hero is-large"
+          <div className="hero is-fullheight">
+          <div className="hero-body">
+            < div className="container"
                 id="contact" >
                 <div className="container has-text-centered">
                     <h1 className="title">
@@ -117,6 +119,8 @@ class Contact extends Component {
 </div>
                 </div>
             </div>
+        </div>
+        </div>
         );
     }
 }
