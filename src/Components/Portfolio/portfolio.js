@@ -5,6 +5,10 @@ import Cara from './subcomponent/cara'
 import Charitree from '../../assets/charitree.png'
 import Klips from '../../assets/klips.png'
 import Vyber from '../../assets/vyber.jpg'
+import nodeLogo from '../../assets/nodejslogo.png'
+import Flight from '../../assets/flight.png'
+
+
 
 
 
@@ -15,15 +19,15 @@ const portArray = [
     description: "Aptly named, VYBER was designed to get a vibe from one’s online persona. The app we’ve developed allows you to generate how you’re perceived online based on the content you post. This app is beneficial for employers, those meeting people through dating apps or anyone interested in knowing how someone is perceived online.",
     link: "https://github.com/erin0418/Vyber"
   },{
-    title: "Vyber",
-    image: Vyber,
-    description: "Aptly named, VYBER was designed to get a vibe from one’s online persona. The app we’ve developed allows you to generate how you’re perceived online based on the content you post. This app is beneficial for employers, those meeting people through dating apps or anyone interested in knowing how someone is perceived online.",
-    link: "https://github.com/erin0418/Vyber"
+    title: "Bamazon",
+    image: nodeLogo,
+    description: "Bamazon is another class project this time without a group. It is a very simple node.js app that mocks a storefront (amazon). This app also has features that would allow the 'manager' to make edits to that store front. Using inquirer (node.js package) it makes the console very user friendly and straight foward.",
+    link: "https://github.com/Mattlomet/bamazon"
   },{
-    title: "Vyber",
-    image: Vyber,
-    description: "Aptly named, VYBER was designed to get a vibe from one’s online persona. The app we’ve developed allows you to generate how you’re perceived online based on the content you post. This app is beneficial for employers, those meeting people through dating apps or anyone interested in knowing how someone is perceived online.",
-    link: "https://github.com/erin0418/Vyber"
+    title: "Flight Finder",
+    image: Flight,
+    description: "Flight Finder was a group project where we could create whatever we pleased using vanilla javascript and jquery. My group came out with an app that would allow secretaries, spouses and all curious people look up information on a flight even if they were given limited data (date, departure airport & arrrival airport).",
+    link: "https://mattlomet.github.io/groupProjectBranch/"
   },
   {
     title: "Charitree",
@@ -124,11 +128,11 @@ class Portfolio extends Component {
   }
   render() {
     return (
-      <div className="hero is-large">
-      <div className="hero-body">
+      <div className="hero is-medium">
+      <div className="hero-body" id="portfolio">
       <Cara title={this.state.title} image={this.state.image} description={this.state.description} link={this.state.link}/>
       </div>
-      <nav class="level is-mobile">
+      <nav class="level is-mobile marginForLevel">
       
   <div class="level-item has-text-centered cursorForSelect" onClick={this.leftRotate}>
     <div>
@@ -177,3 +181,6 @@ class Portfolio extends Component {
 }
 
 export default Portfolio;
+
+
+

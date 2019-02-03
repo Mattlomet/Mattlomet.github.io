@@ -9,7 +9,7 @@ class Objective extends Component {
       <div className="hero is-small">
       <div className="hero-body has-text-centered mainContainer">
 
-          <div class="columns is-centered">
+          <div class="columns is-centered" id="objective">
   <div class="column has-background-link has-text-white">
     <div className="title has-text-white">Github</div>
     <div className="sub-title margin"></div>
@@ -57,11 +57,12 @@ class Objective extends Component {
   <div className="title has-text-white">About</div>
   <div className="sub-title margin"></div>
   <div className="content has-text-white">
-  The technology behind this website is very simple, but the way it was designed was to be scalable as i learn new skills and create/contribute on new projects. Written in React with Bulma CSS helping me do some of the heavy lifting with styling.
+  As of right now I am a student of all things coding. After 2 programming bootcamps I am fully sunk into a self teaching/project building phase. Contributing to projects with former classmates has been an awesome experience being able to complement eachother on complex projects that we're all learning together is really a fun, challenging task.
+  
   <br></br>
    Currently I am using React to build Twitch Extensions with a team of former classmates. You can see them down below in my project showcase or hop over to my github and inspect them further.
   <br></br>
-  As of right now just coding becuase I have developed a passion for it while in school, love to challenge myself and learn new technologies.
+  The technology behind this website is very simple, but the way it was designed was to be scalable as i learn new skills and create/contribute on new projects. Written in React with Bulma CSS helping me do some of the heavy lifting with styling.
   </div>  
   </div>
 

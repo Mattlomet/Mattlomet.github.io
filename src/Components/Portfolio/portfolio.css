@@ -1,3 +1,13 @@
 .cursorForSelect:hover{
     cursor: pointer;
+   
+}
+.imageResize{
+    height: 350px;
+    width: 400px;
+}
+.marginForLevel{
+    margin-left: 15vw;
+    margin-right: 15vw;
+
 }

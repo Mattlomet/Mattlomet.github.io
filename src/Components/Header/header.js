@@ -20,7 +20,7 @@ class Header extends Component {
   </div>
 
   <div className="hero-foot">
-    <nav className="tabs">
+    <nav className="tabs is-boxed is-fullwidth">
       <div className="container">
         <ul>
           <li><a href="#objective" className="navbarItem">
@@ -29,11 +29,7 @@ class Header extends Component {
           <li><a href="#portfolio" className="navbarItem">
  <i className="fas fa-laptop-code is-large"></i>        
  </a></li>
-          <li>
-            <a href="#contact" className="navbarItem">
- <i className="fas fa-phone is-large"></i>
- </a>
-          </li>
+         
         </ul>
       </div>
     </nav>
